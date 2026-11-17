@@ -1,0 +1,22 @@
+{
+  "name": "orbit-foundry-146",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "vitest": {
+    "root": ".",
+    "include": [
+      "tests/**/*.test.ts"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
