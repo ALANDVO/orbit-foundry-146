@@ -1,7 +1,7 @@
 // Unit tests for clip transition manager (Issue #137)
 // Tests that transitions can be applied without being fully baked
 
-import { TransitionManager, TransitionParams, TransitionResult } from "../src/transitions/transition-manager.ts";
+import { TransitionManager, TransitionParams, TransitionResult } from "../../src/transitions/transition-manager.ts";
 
 describe("TransitionManager", () => {
   let manager: TransitionManager;
